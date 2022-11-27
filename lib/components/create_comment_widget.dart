@@ -76,18 +76,14 @@ class _CreateCommentWidgetState extends State<CreateCommentWidget> {
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(16, 12, 0, 0),
                 child: Text(
-                  FFLocalizations.of(context).getText(
-                    'l2jlnhye' /* Create Note */,
-                  ),
+                  'Create Note',
                   style: FlutterFlowTheme.of(context).title3,
                 ),
               ),
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(16, 4, 0, 0),
                 child: Text(
-                  FFLocalizations.of(context).getText(
-                    'd6yfe8tj' /* Find members by searching belo... */,
-                  ),
+                  'Find members by searching below',
                   style: FlutterFlowTheme.of(context).bodyText2,
                 ),
               ),
@@ -108,9 +104,7 @@ class _CreateCommentWidgetState extends State<CreateCommentWidget> {
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(12, 0, 0, 0),
                       child: Text(
-                        FFLocalizations.of(context).getText(
-                          'p3rj5ra0' /* Ricky Rodriguez */,
-                        ),
+                        'Ricky Rodriguez',
                         style: FlutterFlowTheme.of(context).subtitle1,
                       ),
                     ),
@@ -123,9 +117,7 @@ class _CreateCommentWidgetState extends State<CreateCommentWidget> {
                   controller: shortBioController,
                   obscureText: false,
                   decoration: InputDecoration(
-                    hintText: FFLocalizations.of(context).getText(
-                      '9gf6o5ss' /* Enter your note here... */,
-                    ),
+                    hintText: 'Enter your note here...',
                     hintStyle: FlutterFlowTheme.of(context).bodyText2,
                     enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(
@@ -175,9 +167,7 @@ class _CreateCommentWidgetState extends State<CreateCommentWidget> {
                       onPressed: () async {
                         context.pop();
                       },
-                      text: FFLocalizations.of(context).getText(
-                        'farrki57' /* Create Note */,
-                      ),
+                      text: 'Create Note',
                       options: FFButtonOptions(
                         width: 270,
                         height: 50,

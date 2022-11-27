@@ -53,9 +53,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
           },
         ),
         title: Text(
-          FFLocalizations.of(context).getText(
-            'ao46xsuv' /* Business Search */,
-          ),
+          'Business Search',
           style: FlutterFlowTheme.of(context).title3,
         ),
         actions: [],
@@ -91,9 +89,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
                   autofocus: true,
                   obscureText: false,
                   decoration: InputDecoration(
-                    labelText: FFLocalizations.of(context).getText(
-                      'qm251q1a' /* Search Businesses... */,
-                    ),
+                    labelText: 'Search Businesses...',
                     labelStyle: FlutterFlowTheme.of(context).subtitle2.override(
                           fontFamily:
                               FlutterFlowTheme.of(context).subtitle2Family,
@@ -141,9 +137,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(24, 12, 0, 0),
                 child: Text(
-                  FFLocalizations.of(context).getText(
-                    '5x8u4g0u' /* Add Members */,
-                  ),
+                  'Add Members',
                   style: FlutterFlowTheme.of(context).bodyText2,
                 ),
               ),
@@ -273,10 +267,7 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
                                             }.withoutNulls,
                                           );
                                         },
-                                        text:
-                                            FFLocalizations.of(context).getText(
-                                          '4cek35uo' /* View */,
-                                        ),
+                                        text: 'View',
                                         options: FFButtonOptions(
                                           width: 70,
                                           height: 36,

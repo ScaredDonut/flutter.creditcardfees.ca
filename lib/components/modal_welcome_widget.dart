@@ -214,18 +214,14 @@ class _ModalWelcomeWidgetState extends State<ModalWelcomeWidget>
                               animationsMap['rowOnPageLoadAnimation']!),
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
-                            '00flvi93' /* Congratulations! */,
-                          ),
+                          'Congratulations!',
                           style: FlutterFlowTheme.of(context).title2,
                         ).animateOnPageLoad(
                             animationsMap['textOnPageLoadAnimation1']!),
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
-                              'fmzceh74' /* A new contract has been genera... */,
-                            ),
+                            'A new contract has been generated for:',
                             style: FlutterFlowTheme.of(context).bodyText2,
                           ).animateOnPageLoad(
                               animationsMap['textOnPageLoadAnimation2']!),
@@ -280,9 +276,7 @@ class _ModalWelcomeWidgetState extends State<ModalWelcomeWidget>
                                       ),
                                     );
                                   },
-                                  text: FFLocalizations.of(context).getText(
-                                    'g8q2u55w' /* Continue */,
-                                  ),
+                                  text: 'Continue',
                                   options: FFButtonOptions(
                                     width: 160,
                                     height: 50,

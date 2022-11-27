@@ -66,8 +66,6 @@ class _MyAppState extends State<MyApp> {
       locale: _locale,
       supportedLocales: const [
         Locale('en'),
-        Locale('id'),
-        Locale('ms'),
       ],
       theme: ThemeData(brightness: Brightness.light),
       darkTheme: ThemeData(brightness: Brightness.dark),
@@ -137,9 +135,7 @@ class _NavBarPageState extends State<NavBarPage> {
                 Icons.business_rounded,
                 size: 32,
               ),
-              label: FFLocalizations.of(context).getText(
-                '3ourv2w9' /* __ */,
-              ),
+              label: '__',
               tooltip: '',
             ),
             BottomNavigationBarItem(
@@ -151,9 +147,7 @@ class _NavBarPageState extends State<NavBarPage> {
                 Icons.account_circle,
                 size: 32,
               ),
-              label: FFLocalizations.of(context).getText(
-                'o3dp9tss' /* __ */,
-              ),
+              label: '__',
               tooltip: '',
             )
           ],

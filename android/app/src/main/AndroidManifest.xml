@@ -5,7 +5,7 @@
 
 
    <application
-        android:label="CreditCardFees"
+        android:label="Credit Card Fees"
         tools:replace="android:label"
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true">

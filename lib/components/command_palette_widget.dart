@@ -170,10 +170,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                         autofocus: true,
                                         obscureText: false,
                                         decoration: InputDecoration(
-                                          hintText: FFLocalizations.of(context)
-                                              .getText(
-                                            'jt9g5o8v' /* Search platform... */,
-                                          ),
+                                          hintText: 'Search platform...',
                                           hintStyle:
                                               FlutterFlowTheme.of(context)
                                                   .subtitle2,
@@ -268,10 +265,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                           );
                                           Navigator.pop(context);
                                         },
-                                        text:
-                                            FFLocalizations.of(context).getText(
-                                          'b3bd9y8w' /* Search */,
-                                        ),
+                                        text: 'Search',
                                         options: FFButtonOptions(
                                           width: 90,
                                           height: 50,
@@ -317,9 +311,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     24, 12, 0, 12),
                                 child: Text(
-                                  FFLocalizations.of(context).getText(
-                                    'pw6kvl1f' /* Quick Links */,
-                                  ),
+                                  'Quick Links',
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -371,10 +363,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     12, 0, 0, 0),
                                             child: Text(
-                                              FFLocalizations.of(context)
-                                                  .getText(
-                                                'gckukxjv' /* Find Contract */,
-                                              ),
+                                              'Find Contract',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText2,
@@ -434,10 +423,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(12, 0, 0, 0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'zsq8vj02' /* Find Customer */,
-                                                  ),
+                                                  'Find Customer',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText2,
@@ -493,10 +479,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(12, 0, 0, 0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    'iqxwv326' /* New Contract */,
-                                                  ),
+                                                  'New Contract',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText2,
@@ -542,10 +525,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(12, 0, 0, 0),
                                                 child: Text(
-                                                  FFLocalizations.of(context)
-                                                      .getText(
-                                                    's60yfg0g' /* New Customer */,
-                                                  ),
+                                                  'New Customer',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText2,
@@ -580,9 +560,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                           padding:
                               EdgeInsetsDirectional.fromSTEB(24, 12, 0, 12),
                           child: Text(
-                            FFLocalizations.of(context).getText(
-                              'lwrh59bb' /* Recent Searches */,
-                            ),
+                            'Recent Searches',
                             style: FlutterFlowTheme.of(context)
                                 .bodyText1
                                 .override(
@@ -630,9 +608,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           12, 0, 0, 0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          'o6lqlfr1' /* Newport Financ */,
-                                        ),
+                                        'Newport Financ',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText2,
                                       ),
@@ -674,9 +650,7 @@ class _CommandPaletteWidgetState extends State<CommandPaletteWidget>
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           12, 0, 0, 0),
                                       child: Text(
-                                        FFLocalizations.of(context).getText(
-                                          '6zpaywwg' /* Harry Styles */,
-                                        ),
+                                        'Harry Styles',
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText2,
                                       ),

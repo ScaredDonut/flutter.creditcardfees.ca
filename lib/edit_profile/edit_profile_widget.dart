@@ -52,9 +52,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
           },
         ),
         title: Text(
-          FFLocalizations.of(context).getText(
-            '20uycztj' /* Edit Profile */,
-          ),
+          'Edit Profile',
           style: FlutterFlowTheme.of(context).subtitle1,
         ),
         actions: [],
@@ -108,9 +106,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                     onPressed: () {
                       print('Button pressed ...');
                     },
-                    text: FFLocalizations.of(context).getText(
-                      'mk8nnw94' /* Change Photo */,
-                    ),
+                    text: 'Change Photo',
                     options: FFButtonOptions(
                       width: 130,
                       height: 40,
@@ -141,9 +137,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                 controller: yourNameController,
                 obscureText: false,
                 decoration: InputDecoration(
-                  labelText: FFLocalizations.of(context).getText(
-                    '4no7ue4a' /* Your Name */,
-                  ),
+                  labelText: 'Your Name',
                   labelStyle: FlutterFlowTheme.of(context).bodyText2,
                   hintStyle: FlutterFlowTheme.of(context).bodyText2,
                   enabledBorder: OutlineInputBorder(
@@ -186,9 +180,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
               padding: EdgeInsetsDirectional.fromSTEB(32, 0, 0, 0),
               child: SelectionArea(
                   child: Text(
-                FFLocalizations.of(context).getText(
-                  '2rqce1pj' /* The email associated with this... */,
-                ),
+                'The email associated with this account is:',
                 style: FlutterFlowTheme.of(context).bodyText2,
               )),
             ),
@@ -208,9 +200,7 @@ class _EditProfileWidgetState extends State<EditProfileWidget> {
                   onPressed: () {
                     print('Button pressed ...');
                   },
-                  text: FFLocalizations.of(context).getText(
-                    'rr8ksatz' /* Save Changes */,
-                  ),
+                  text: 'Save Changes',
                   options: FFButtonOptions(
                     width: 240,
                     height: 50,

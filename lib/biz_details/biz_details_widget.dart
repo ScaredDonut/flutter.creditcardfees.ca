@@ -508,9 +508,7 @@ class _BizDetailsWidgetState extends State<BizDetailsWidget>
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  FFLocalizations.of(context).getText(
-                                    'obyrn1rb' /* Business Name */,
-                                  ),
+                                  'Business Name',
                                   style: FlutterFlowTheme.of(context).bodyText2,
                                 ).animateOnPageLoad(
                                     animationsMap['textOnPageLoadAnimation1']!),
@@ -573,9 +571,7 @@ class _BizDetailsWidgetState extends State<BizDetailsWidget>
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'mzv1ptjl' /* Business Categories */,
-                              ),
+                              'Business Categories',
                               style: FlutterFlowTheme.of(context).bodyText2,
                             ).animateOnPageLoad(
                                 animationsMap['textOnPageLoadAnimation3']!),
@@ -602,9 +598,7 @@ class _BizDetailsWidgetState extends State<BizDetailsWidget>
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'strngvh5' /* Business Description */,
-                              ),
+                              'Business Description',
                               style: FlutterFlowTheme.of(context).bodyText2,
                             ).animateOnPageLoad(
                                 animationsMap['textOnPageLoadAnimation5']!),
@@ -628,9 +622,7 @@ class _BizDetailsWidgetState extends State<BizDetailsWidget>
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'ecbeopja' /* Business Address */,
-                              ),
+                              'Business Address',
                               style: FlutterFlowTheme.of(context).bodyText2,
                             ).animateOnPageLoad(
                                 animationsMap['textOnPageLoadAnimation6']!),
@@ -699,9 +691,7 @@ class _BizDetailsWidgetState extends State<BizDetailsWidget>
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
-                                'kl55bl1c' /* Fee */,
-                              ),
+                              'Fee',
                               style: FlutterFlowTheme.of(context).bodyText2,
                             ).animateOnPageLoad(
                                 animationsMap['textOnPageLoadAnimation11']!),
@@ -745,9 +735,7 @@ class _BizDetailsWidgetState extends State<BizDetailsWidget>
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              FFLocalizations.of(context).getText(
-                                '43sgnm8k' /* Notes */,
-                              ),
+                              'Notes',
                               style: FlutterFlowTheme.of(context).bodyText2,
                             ).animateOnPageLoad(
                                 animationsMap['textOnPageLoadAnimation13']!),

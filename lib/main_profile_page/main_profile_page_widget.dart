@@ -179,9 +179,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       16, 16, 0, 16),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'qrxn5crt' /* My Profile */,
-                                    ),
+                                    'My Profile',
                                     textAlign: TextAlign.start,
                                     style: FlutterFlowTheme.of(context).title1,
                                   ).animateOnPageLoad(animationsMap[
@@ -361,9 +359,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                             MainAxisAlignment.spaceBetween,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'v1hh7jlp' /* Switch to Dark Mode */,
-                                            ),
+                                            'Switch to Dark Mode',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
                                           ),
@@ -480,9 +476,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                             MainAxisAlignment.spaceBetween,
                                         children: [
                                           Text(
-                                            FFLocalizations.of(context).getText(
-                                              'sh7q15l6' /* Switch to Light Mode */,
-                                            ),
+                                            'Switch to Light Mode',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1,
                                           ),
@@ -568,9 +562,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(24, 12, 0, 12),
                               child: Text(
-                                FFLocalizations.of(context).getText(
-                                  'fyxsf6vn' /* Account Settings */,
-                                ),
+                                'Account Settings',
                                 style: FlutterFlowTheme.of(context).bodyText1,
                               ),
                             ),
@@ -603,9 +595,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             12, 0, 0, 0),
                                         child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'h43llaan' /* Change Password */,
-                                          ),
+                                          'Change Password',
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText2
                                               .override(
@@ -675,9 +665,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                               EdgeInsetsDirectional.fromSTEB(
                                                   12, 0, 0, 0),
                                           child: Text(
-                                            FFLocalizations.of(context).getText(
-                                              'b1lw0hfu' /* Edit Profile */,
-                                            ),
+                                            'Edit Profile',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText2,
                                           ),
@@ -712,9 +700,7 @@ class _MainProfilePageWidgetState extends State<MainProfilePageWidget>
                                     onPressed: () {
                                       print('Button pressed ...');
                                     },
-                                    text: FFLocalizations.of(context).getText(
-                                      'abqf147c' /* Log Out */,
-                                    ),
+                                    text: 'Log Out',
                                     options: FFButtonOptions(
                                       width: 90,
                                       height: 40,

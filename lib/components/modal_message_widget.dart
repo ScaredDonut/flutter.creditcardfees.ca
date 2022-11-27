@@ -207,18 +207,14 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
                               animationsMap['rowOnPageLoadAnimation']!),
                         ),
                         Text(
-                          FFLocalizations.of(context).getText(
-                            'wa4vkne2' /* Congratulations! */,
-                          ),
+                          'Congratulations!',
                           style: FlutterFlowTheme.of(context).title3,
                         ).animateOnPageLoad(
                             animationsMap['textOnPageLoadAnimation1']!),
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                           child: Text(
-                            FFLocalizations.of(context).getText(
-                              '3hf2ocig' /* Now that a contract has been g... */,
-                            ),
+                            'Now that a contract has been generated for this customer please contact them with the date you will send the signed agreement.',
                             style: FlutterFlowTheme.of(context).bodyText2,
                           ).animateOnPageLoad(
                               animationsMap['textOnPageLoadAnimation2']!),
@@ -236,9 +232,7 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
                                     onPressed: () {
                                       print('Button pressed ...');
                                     },
-                                    text: FFLocalizations.of(context).getText(
-                                      'q0jvi1lp' /* Okay */,
-                                    ),
+                                    text: 'Okay',
                                     options: FFButtonOptions(
                                       width: 160,
                                       height: 50,
@@ -265,9 +259,7 @@ class _ModalMessageWidgetState extends State<ModalMessageWidget>
                                     onPressed: () {
                                       print('Button pressed ...');
                                     },
-                                    text: FFLocalizations.of(context).getText(
-                                      'oo4y13nf' /* Continue */,
-                                    ),
+                                    text: 'Continue',
                                     options: FFButtonOptions(
                                       width: 160,
                                       height: 50,

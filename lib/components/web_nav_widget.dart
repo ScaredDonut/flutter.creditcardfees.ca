@@ -78,9 +78,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                   children: [
                     SelectionArea(
                         child: Text(
-                      FFLocalizations.of(context).getText(
-                        'fi5k9onh' /* CreditCardFees.ca */,
-                      ),
+                      'CreditCardFees.ca',
                       style: FlutterFlowTheme.of(context).bodyText1,
                     )),
                     if (Theme.of(context).brightness == Brightness.light)
@@ -151,9 +149,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(12, 0, 0, 0),
                               child: Text(
-                                FFLocalizations.of(context).getText(
-                                  'xai8ocja' /* Search */,
-                                ),
+                                'Search',
                                 style: FlutterFlowTheme.of(context).subtitle2,
                               ),
                             ),
@@ -189,9 +185,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(12, 0, 0, 0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
-                                'yg07zi4c' /* Dashboard */,
-                              ),
+                              'Dashboard',
                               style: FlutterFlowTheme.of(context)
                                   .subtitle2
                                   .override(
@@ -242,9 +236,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(12, 0, 0, 0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
-                                'lbojdpxg' /* Businesses */,
-                              ),
+                              'Businesses',
                               style: FlutterFlowTheme.of(context)
                                   .subtitle2
                                   .override(
@@ -296,9 +288,7 @@ class _WebNavWidgetState extends State<WebNavWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(12, 0, 0, 0),
                             child: Text(
-                              FFLocalizations.of(context).getText(
-                                '01nu9cy0' /* Profile */,
-                              ),
+                              'Profile',
                               style: FlutterFlowTheme.of(context)
                                   .subtitle2
                                   .override(

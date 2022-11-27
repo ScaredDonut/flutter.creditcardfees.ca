@@ -169,9 +169,7 @@ class _MainBizListWidgetState extends State<MainBizListWidget>
               backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
               automaticallyImplyLeading: false,
               title: Text(
-                FFLocalizations.of(context).getText(
-                  'fcyoodds' /* Customers */,
-                ),
+                'Customers',
                 style: FlutterFlowTheme.of(context).title1,
               ),
               actions: [],
@@ -257,9 +255,7 @@ class _MainBizListWidgetState extends State<MainBizListWidget>
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       16, 16, 0, 0),
                                   child: Text(
-                                    FFLocalizations.of(context).getText(
-                                      'n99lg1qh' /* List of Busineses */,
-                                    ),
+                                    'List of Busineses',
                                     style: FlutterFlowTheme.of(context).title1,
                                   ),
                                 ),
@@ -307,40 +303,22 @@ class _MainBizListWidgetState extends State<MainBizListWidget>
                                       indicatorWeight: 3,
                                       tabs: [
                                         Tab(
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            'lvnskphp' /* All */,
-                                          ),
+                                          text: 'All',
                                         ),
                                         Tab(
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            '1v5rixcl' /* Restaurants */,
-                                          ),
+                                          text: 'Restaurants',
                                         ),
                                         Tab(
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            'cbyarljt' /* Stores */,
-                                          ),
+                                          text: 'Stores',
                                         ),
                                         Tab(
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            '24p0z30x' /* Services */,
-                                          ),
+                                          text: 'Services',
                                         ),
                                         Tab(
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            'lfydva39' /* Government */,
-                                          ),
+                                          text: 'Government',
                                         ),
                                         Tab(
-                                          text: FFLocalizations.of(context)
-                                              .getText(
-                                            'crj5wm60' /* Auctions */,
-                                          ),
+                                          text: 'Auctions',
                                         ),
                                       ],
                                     ),

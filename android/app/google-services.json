@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "497696633093",
+    "project_id": "creditcardfees-131f1",
+    "storage_bucket": "creditcardfees-131f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497696633093:android:040b1a91a951e34280076c",
+        "android_client_info": {
+          "package_name": "ca.creditcardfees"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497696633093-fm5249f4nbfg2ufot1pq5ekdfspab05f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.creditcardfees",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "497696633093-3ril11p7p8nd2oggc4jmv0qb1uue0osf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK7x7xx3n4XQbt7KNoSfr00vC6tR0ELP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497696633093-3ril11p7p8nd2oggc4jmv0qb1uue0osf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "497696633093-jffq7ucheb37sdcg4h5tplea3imaso6t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ca.creditcardfees"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

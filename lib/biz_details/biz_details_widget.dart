@@ -4,6 +4,7 @@ import '../flutter_flow/flutter_flow_expanded_image_view.dart';
 import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -427,8 +428,9 @@ class _BizDetailsWidgetState extends State<BizDetailsWidget>
                                     PageTransition(
                                       type: PageTransitionType.fade,
                                       child: FlutterFlowExpandedImageView(
-                                        image: Image.network(
-                                          'https://admin.creditcardfees.ca/${getJsonField(
+                                        image: CachedNetworkImage(
+                                          imageUrl:
+                                              'https://admin.creditcardfees.ca/${getJsonField(
                                             bizDetailsProfileAPIResponse
                                                 .jsonBody,
                                             r'''$.data.attributes.logo.data.attributes.url''',
@@ -453,14 +455,15 @@ class _BizDetailsWidgetState extends State<BizDetailsWidget>
                                     r'''$.data.attributes.logo.data.attributes.url''',
                                   ).toString()}',
                                   transitionOnUserGestures: true,
-                                  child: Image.network(
-                                    'https://admin.creditcardfees.ca/${getJsonField(
+                                  child: CachedNetworkImage(
+                                    imageUrl:
+                                        'https://admin.creditcardfees.ca/${getJsonField(
                                       bizDetailsProfileAPIResponse.jsonBody,
                                       r'''$.data.attributes.logo.data.attributes.url''',
                                     ).toString()}',
                                     width: 600,
                                     height: 240,
-                                    fit: BoxFit.fill,
+                                    fit: BoxFit.contain,
                                   ),
                                 ),
                               ).animateOnPageLoad(

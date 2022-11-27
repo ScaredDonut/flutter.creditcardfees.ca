@@ -94,6 +94,25 @@ class FilterCategoryCall {
       );
 }
 
+class FaqApiCall {
+  static Future<ApiCallResponse> call() {
+    return ApiManager.instance.makeApiCall(
+      callName: 'FAQ API',
+      apiUrl: 'https://admin.creditcardfees.ca/api/faqs?populate=*',
+      callType: ApiCallType.GET,
+      headers: {},
+      params: {},
+      returnBody: true,
+    );
+  }
+
+  static dynamic faqdata(dynamic response) => getJsonField(
+        response,
+        r'''$.data''',
+        true,
+      );
+}
+
 class ApiPagingParams {
   int nextPageNumber = 0;
   int numItems = 0;

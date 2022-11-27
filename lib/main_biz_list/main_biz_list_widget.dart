@@ -5,6 +5,7 @@ import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import 'dart:async';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -464,18 +465,26 @@ class _MainBizListWidgetState extends State<MainBizListWidget>
                                                                         crossAxisAlignment:
                                                                             CrossAxisAlignment.center,
                                                                         children: [
-                                                                          ClipRRect(
-                                                                            borderRadius:
-                                                                                BorderRadius.circular(8),
+                                                                          Hero(
+                                                                            tag:
+                                                                                'https://admin.creditcardfees.ca/${getJsonField(
+                                                                              pullDataItem,
+                                                                              r'''$.attributes.logo.data.attributes.url''',
+                                                                            ).toString()}',
+                                                                            transitionOnUserGestures:
+                                                                                true,
                                                                             child:
-                                                                                Image.network(
-                                                                              'https://admin.creditcardfees.ca/${getJsonField(
-                                                                                pullDataItem,
-                                                                                r'''$.attributes.logo.data.attributes.url''',
-                                                                              ).toString()}',
-                                                                              width: 70,
-                                                                              height: 70,
-                                                                              fit: BoxFit.fill,
+                                                                                ClipRRect(
+                                                                              borderRadius: BorderRadius.circular(8),
+                                                                              child: CachedNetworkImage(
+                                                                                imageUrl: 'https://admin.creditcardfees.ca/${getJsonField(
+                                                                                  pullDataItem,
+                                                                                  r'''$.attributes.logo.data.attributes.url''',
+                                                                                ).toString()}',
+                                                                                width: 70,
+                                                                                height: 70,
+                                                                                fit: BoxFit.contain,
+                                                                              ),
                                                                             ),
                                                                           ),
                                                                           Expanded(

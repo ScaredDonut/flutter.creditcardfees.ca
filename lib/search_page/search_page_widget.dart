@@ -135,13 +135,6 @@ class _SearchPageWidgetState extends State<SearchPageWidget> {
                 ),
               ),
               Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(24, 12, 0, 0),
-                child: Text(
-                  'Add Members',
-                  style: FlutterFlowTheme.of(context).bodyText2,
-                ),
-              ),
-              Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(0, 12, 0, 44),
                 child: FutureBuilder<ApiCallResponse>(
                   future: BizNameSearchCall.call(

@@ -1,8 +1,6 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
 import 'flutter_flow/internationalization.dart';
@@ -12,7 +10,7 @@ import 'index.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+
   await FlutterFlowTheme.initialize();
 
   runApp(MyApp());
@@ -102,6 +100,7 @@ class _NavBarPageState extends State<NavBarPage> {
   Widget build(BuildContext context) {
     final tabs = {
       'Main_bizList': MainBizListWidget(),
+      'question': QuestionWidget(),
       'Main_profilePage': MainProfilePageWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
@@ -136,6 +135,14 @@ class _NavBarPageState extends State<NavBarPage> {
                 size: 32,
               ),
               label: '__',
+              tooltip: '',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.info_rounded,
+                size: 24,
+              ),
+              label: '',
               tooltip: '',
             ),
             BottomNavigationBarItem(
